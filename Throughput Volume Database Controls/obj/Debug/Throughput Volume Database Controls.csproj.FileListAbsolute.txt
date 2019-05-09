@@ -1,0 +1,9 @@
+C:\Users\JPasol\Desktop\Repository\OP Dox Reports\Throughput Volume Database\Throughput Volume Database Controls\bin\Debug\Throughput Volume Database Controls.dll
+C:\Users\JPasol\Desktop\Repository\OP Dox Reports\Throughput Volume Database\Throughput Volume Database Controls\bin\Debug\Throughput Volume Database Controls.pdb
+C:\Users\JPasol\Desktop\Repository\OP Dox Reports\Throughput Volume Database\Throughput Volume Database Controls\obj\Debug\Throughput Volume Database Controls.csproj.CoreCompileInputs.cache
+C:\Users\JPasol\Desktop\Repository\OP Dox Reports\Throughput Volume Database\Throughput Volume Database Controls\obj\Debug\Throughput Volume Database Controls.dll
+C:\Users\JPasol\Desktop\Repository\OP Dox Reports\Throughput Volume Database\Throughput Volume Database Controls\obj\Debug\Throughput Volume Database Controls.pdb
+C:\Users\JPasol\Desktop\Repository\OP Dox Reports\Throughput Volume Database\Throughput Volume Database Controls\obj\Debug\Throughput_Volume_Database_Controls.FilterBuilder.resources
+C:\Users\JPasol\Desktop\Repository\OP Dox Reports\Throughput Volume Database\Throughput Volume Database Controls\obj\Debug\Throughput Volume Database Controls.csproj.GenerateResource.cache
+C:\Users\JPasol\Desktop\Repository\OP Dox Reports\Throughput Volume Database\Throughput Volume Database Controls\obj\Debug\Throughput_Volume_Database_Controls.Properties.Resources.resources
+C:\Users\JPasol\Desktop\Repository\OP Dox Reports\Throughput Volume Database\Throughput Volume Database Controls\obj\Debug\Throughput Volume Database Controls.csprojAssemblyReference.cache
