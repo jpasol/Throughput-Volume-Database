@@ -7,3 +7,4 @@ C:\Users\JPasol\Desktop\Repository\OP Dox Reports\Throughput Volume Database\Thr
 C:\Users\JPasol\Desktop\Repository\OP Dox Reports\Throughput Volume Database\Throughput Volume Database Controls\obj\Debug\Throughput Volume Database Controls.csproj.GenerateResource.cache
 C:\Users\JPasol\Desktop\Repository\OP Dox Reports\Throughput Volume Database\Throughput Volume Database Controls\obj\Debug\Throughput_Volume_Database_Controls.Properties.Resources.resources
 C:\Users\JPasol\Desktop\Repository\OP Dox Reports\Throughput Volume Database\Throughput Volume Database Controls\obj\Debug\Throughput Volume Database Controls.csprojAssemblyReference.cache
+C:\Users\JPasol\Desktop\Repository\OP Dox Reports\Throughput Volume Database\Throughput Volume Database Controls\obj\Debug\Throughput_Volume_Database_Controls.Throughput_Viewer.resources

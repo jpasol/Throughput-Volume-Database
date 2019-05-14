@@ -117,92 +117,10 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="groupBox1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
+  <metadata name="menuField.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
   </metadata>
-  <metadata name="treeFilter.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
+  <metadata name="$this.TrayLargeIcon" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
   </metadata>
-  <metadata name="textParameter.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="cmbLogic.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="cmbFields.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="panel1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="buttonApply.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="buttonApply.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAAA0AAAANCAIAAAD9iXMrAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        wwAADsMBx2+oZAAAAJ9JREFUKFOFj1ERxCAMRJGABCQgoRKQgAQk8IkLJCABCZVQCUjgXi9cb9rhjv3I
-        kORNdlF9pX3fqQsOaNs26j+OtXPOe99a+8mx4xLQcRy0cw7IGAPHQyZzLqWktQ4hjH7K1VqttTHG0b91
-        cizIi3AhO45KKYl1adzDgh1nSik8cs5XMtHXV1DEPRzG9KNbPkEfyUQ3Di/QNSd6/OBU7y87qa9EYDWz
-        lQAAAABJRU5ErkJggg==
-</value>
-  </data>
-  <metadata name="buttonNegate.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <data name="buttonNegate.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAAA0AAAANCAIAAAD9iXMrAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        wwAADsMBx2+oZAAAAIVJREFUKFONkVENwCAMRJEwKUhAwiQgYU6QgBQkIaE7GgrXbEv20g9yeRwQgvzD
-        e71LrXM85JUiOUsIc7Am2zxIx7GlNaaqh+O4iQe5oh42IUpJztNNjCPXSvJaG2sGyYv37EPiPPB1v+sa
-        t9/e63uRIFfMA+jnVjSZBMgD/B963MJ7X4jcOF17ER3OFxoAAAAASUVORK5CYII=
-</value>
-  </data>
-  <metadata name="buttonOr.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <data name="buttonOr.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAAA0AAAANCAIAAAD9iXMrAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        wwAADsMBx2+oZAAAAIhJREFUKFPFkLsNxSAMRT0WJWMwBiUlJSUlHWzgURiBkpIRyBVxoiSKXvWknAJk
-        38OX5p0xRq1VigtPj5mJKIQg9cG7Z4zBxtJa/N1rrSE78d7DU0rlnKXFjDWE1yH4TSmF4MYYcdCO1hoB
-        RqkXzjm5H+wdHAcPWe9dWovP/kXmCykla+3Nm3MD/G96BPteQaQAAAAASUVORK5CYII=
-</value>
-  </data>
-  <metadata name="buttonDelete.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <data name="buttonDelete.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAAA0AAAANCAIAAAD9iXMrAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        wwAADsMBx2+oZAAAAIRJREFUKFOdkOENABEMRo1gBKMYyQZsYAQj3ChGMIIR3Ed7QhOJ3PvXL68tVe2O
-        X16tNaXExc7mlVK01tbanDNHH3Iv5qmBMQZt2EC5QvEshBDIIzAbIWzlnOPsTHdijFwdgISR/X1YPZlt
-        9CEk9ER5F+89fkAGpwPp0RauF+RdTtx5rb05FHRzVlXpLgAAAABJRU5ErkJggg==
-</value>
-  </data>
-  <metadata name="buttonAnd.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <data name="buttonAnd.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAAA0AAAANCAIAAAD9iXMrAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        wwAADsMBx2+oZAAAAMZJREFUKFN1kbERhDAMBBUSUgYhJVACJbgcQkoggwwyyCjBJVACIeH/mvP4Zwx/
-        gYx1i2TLdp6n9574edNxHLh8GIuZOeeeKBB53HEcQ722bdkQM1RQXdfLshj7hGKIQMoIuq4rcFKqSjti
-        WZZA67oC4f44JFQC2rYtGhlHpUiZ0S5mb/2t1zRNzN6KnK5SFAXtpmnSD0S5KHA6OAbQvu8yNBTyGpal
-        Yep2glA21/geVVVlB0cJ7fs+9B2GYZ5nzempruu891+8q1WzV35dsAAAAABJRU5ErkJggg==
-</value>
-  </data>
-  <metadata name="buttonAdd.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <data name="buttonAdd.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAAA0AAAANCAIAAAD9iXMrAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        wwAADsMBx2+oZAAAAMRJREFUKFOdkDEKhDAQRUfwAraCkAvYCWKXI3kEK4tA8B42tuk8gK2VIBYhtaKV
-        hcRRZ2EXXFb2dfnzkvwE7DP+8uZ5btt2miYp5TiOlJ58eE3TRFGUJEkQBMMwUHoC27Yty9J1nVLK933H
-        cQDA87yyLLXW67qS1/e9ECIMQxy/47puHMd5nuMG7ABpmtLkO4dTVdVPtSgKege25pxTDIDvxT4YXhz3
-        Xt6FMQZtxliWZRS9uPnnuq6xCR5D65Mb75ZnnrU7FThm+bSYbO4AAAAASUVORK5CYII=
-</value>
-  </data>
 </root>

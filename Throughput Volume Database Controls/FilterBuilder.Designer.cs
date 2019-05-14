@@ -32,8 +32,8 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.treeFilter = new System.Windows.Forms.TreeView();
             this.textParameter = new System.Windows.Forms.TextBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.cmbLogic = new System.Windows.Forms.ComboBox();
+            this.cmbFields = new System.Windows.Forms.ComboBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.buttonApply = new System.Windows.Forms.Button();
             this.buttonNegate = new System.Windows.Forms.Button();
@@ -49,8 +49,8 @@
             // 
             this.groupBox1.Controls.Add(this.treeFilter);
             this.groupBox1.Controls.Add(this.textParameter);
-            this.groupBox1.Controls.Add(this.comboBox2);
-            this.groupBox1.Controls.Add(this.comboBox1);
+            this.groupBox1.Controls.Add(this.cmbLogic);
+            this.groupBox1.Controls.Add(this.cmbFields);
             this.groupBox1.Controls.Add(this.panel1);
             this.groupBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox1.Location = new System.Drawing.Point(0, 0);
@@ -79,25 +79,25 @@
             this.textParameter.Size = new System.Drawing.Size(211, 20);
             this.textParameter.TabIndex = 4;
             // 
-            // comboBox2
+            // cmbLogic
             // 
-            this.comboBox2.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.comboBox2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(348, 22);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(122, 21);
-            this.comboBox2.TabIndex = 3;
+            this.cmbLogic.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.cmbLogic.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbLogic.FormattingEnabled = true;
+            this.cmbLogic.Location = new System.Drawing.Point(348, 22);
+            this.cmbLogic.Name = "cmbLogic";
+            this.cmbLogic.Size = new System.Drawing.Size(122, 21);
+            this.cmbLogic.TabIndex = 3;
             // 
-            // comboBox1
+            // cmbFields
             // 
-            this.comboBox1.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(6, 22);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(336, 21);
-            this.comboBox1.TabIndex = 2;
+            this.cmbFields.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.cmbFields.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbFields.FormattingEnabled = true;
+            this.cmbFields.Location = new System.Drawing.Point(6, 22);
+            this.cmbFields.Name = "cmbFields";
+            this.cmbFields.Size = new System.Drawing.Size(336, 21);
+            this.cmbFields.TabIndex = 2;
             // 
             // panel1
             // 
@@ -219,14 +219,14 @@
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.TreeView treeFilter;
         private System.Windows.Forms.TextBox textParameter;
-        private System.Windows.Forms.ComboBox comboBox2;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox cmbLogic;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Button buttonApply;
         private System.Windows.Forms.Button buttonNegate;
         private System.Windows.Forms.Button buttonOr;
         private System.Windows.Forms.Button buttonDelete;
         private System.Windows.Forms.Button buttonAnd;
         private System.Windows.Forms.Button buttonAdd;
+        public System.Windows.Forms.ComboBox cmbFields;
+        public System.Windows.Forms.Button buttonApply;
     }
 }

@@ -30,8 +30,8 @@
         {
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.throughput_Viewer1 = new Throughput_Volume_Database_Controls.Throughput_Viewer();
             this.filterBuilder1 = new Throughput_Volume_Database_Controls.FilterBuilder();
+            this.throughput_Viewer1 = new Throughput_Volume_Database_Controls.Throughput_Viewer();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.throughput_Viewer1)).BeginInit();
@@ -59,6 +59,16 @@
             this.tabPage1.Text = "tabPage1";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
+            // filterBuilder1
+            // 
+            this.filterBuilder1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.filterBuilder1.Location = new System.Drawing.Point(3, 3);
+            this.filterBuilder1.MaximumSize = new System.Drawing.Size(0, 196);
+            this.filterBuilder1.MinimumSize = new System.Drawing.Size(839, 0);
+            this.filterBuilder1.Name = "filterBuilder1";
+            this.filterBuilder1.Size = new System.Drawing.Size(957, 196);
+            this.filterBuilder1.TabIndex = 2;
+            // 
             // throughput_Viewer1
             // 
             this.throughput_Viewer1.AllowUserToAddRows = false;
@@ -76,16 +86,7 @@
             this.throughput_Viewer1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.throughput_Viewer1.Size = new System.Drawing.Size(957, 444);
             this.throughput_Viewer1.TabIndex = 1;
-            // 
-            // filterBuilder1
-            // 
-            this.filterBuilder1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.filterBuilder1.Location = new System.Drawing.Point(3, 3);
-            this.filterBuilder1.MaximumSize = new System.Drawing.Size(0, 196);
-            this.filterBuilder1.MinimumSize = new System.Drawing.Size(839, 0);
-            this.filterBuilder1.Name = "filterBuilder1";
-            this.filterBuilder1.Size = new System.Drawing.Size(957, 196);
-            this.filterBuilder1.TabIndex = 2;
+            this.throughput_Viewer1.VirtualMode = true;
             // 
             // Form_Main
             // 
@@ -96,6 +97,7 @@
             this.Controls.Add(this.tabControl1);
             this.MinimumSize = new System.Drawing.Size(987, 720);
             this.Name = "Form_Main";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
