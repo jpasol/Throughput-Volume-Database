@@ -32,23 +32,37 @@ namespace ThroughputVolumeDatabase
                 Throughput_Volume_Update.ThroughputVolumeDatabase tempDB = new Throughput_Volume_Update.ThroughputVolumeDatabase();
                 SelectedRowsToDB(tempDB);
 
-                //int[] years = tempDB.AllVesselThroughputVolumeData.AsEnumerable()
-                //    .Select(row => (int)row["Month"]).Distinct().ToArray();
+                int[] years = tempDB.AllVesselThroughputVolumeData.AsEnumerable()
+                    .Select(row => Convert.ToInt32(row["Year"])).Distinct().ToArray();
 
-                //AddNullMonthEntries(years, tempDB);
+                string[] lines = tempDB.AllVesselThroughputVolumeData.AsEnumerable()
+                    .Select(row => row["VesselVolume"].ToString()).Distinct().ToArray();
+
+                AddNullMonthEntries(lines,years, tempDB);
+
+                Form_CummulativeReport reportForm = new Form_CummulativeReport();
+                CummulativeThroughputReport cumReport = new CummulativeThroughputReport();
+                cumReport.SetDataSource(tempDB);
+                reportForm.cummulativeReportViewer.ReportSource = cumReport;
+                reportForm.Show();
 
             }
         }
 
-        private void AddNullMonthEntries(int[] years, Throughput_Volume_Update.ThroughputVolumeDatabase tempDB)
+        private void AddNullMonthEntries(string[] lines, int[] years, Throughput_Volume_Update.ThroughputVolumeDatabase tempDB)
         {
-            foreach (int year in years)
+            foreach (string line in lines)
             {
-                for (int i = 1; i <= 12; i++)
+                foreach (int year in years)
                 {
-                    DataRow tempRow = tempDB.AllVesselThroughputVolumeData.NewRow();
-                    tempRow["Month"] = i;
-                    tempDB.AllVesselThroughputVolumeData.Rows.Add(tempRow);
+                    for (int i = 1; i <= 12; i++)
+                    {
+                        DataRow tempRow = tempDB.AllVesselThroughputVolumeData.NewRow();
+                        tempRow["VesselVolume"] = line;
+                        tempRow["Month"] = i;
+                        tempRow["Year"] = year;
+                        tempDB.AllVesselThroughputVolumeData.Rows.Add(tempRow);
+                    }
                 }
             }
         }
