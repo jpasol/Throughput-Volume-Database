@@ -1,17 +1,5 @@
 C:\Users\JPasol\Desktop\Repository\OP Dox Reports\Throughput Volume Database\bin\Debug\ShippingLines.csv
 C:\Users\JPasol\Desktop\Repository\OP Dox Reports\Throughput Volume Database\bin\Debug\VesselLines.csv
-C:\Users\JPasol\Desktop\Repository\OP Dox Reports\Throughput Volume Database\bin\Debug\app.config
-C:\Users\JPasol\Desktop\Repository\OP Dox Reports\Throughput Volume Database\bin\Debug\CrystalReport1.rpt
-C:\Users\JPasol\Desktop\Repository\OP Dox Reports\Throughput Volume Database\bin\Debug\CMU.rpt
-C:\Users\JPasol\Desktop\Repository\OP Dox Reports\Throughput Volume Database\bin\Debug\VMR.rpt
-C:\Users\JPasol\Desktop\Repository\OP Dox Reports\Throughput Volume Database\bin\Debug\CrystalReport1.vb
-C:\Users\JPasol\Desktop\Repository\OP Dox Reports\Throughput Volume Database\bin\Debug\CMU.vb
-C:\Users\JPasol\Desktop\Repository\OP Dox Reports\Throughput Volume Database\bin\Debug\dsVMR.Designer.vb
-C:\Users\JPasol\Desktop\Repository\OP Dox Reports\Throughput Volume Database\bin\Debug\dsVMR.vb
-C:\Users\JPasol\Desktop\Repository\OP Dox Reports\Throughput Volume Database\bin\Debug\VMR.vb
-C:\Users\JPasol\Desktop\Repository\OP Dox Reports\Throughput Volume Database\bin\Debug\dsVMR.xsc
-C:\Users\JPasol\Desktop\Repository\OP Dox Reports\Throughput Volume Database\bin\Debug\dsVMR.xsd
-C:\Users\JPasol\Desktop\Repository\OP Dox Reports\Throughput Volume Database\bin\Debug\dsVMR.xss
 C:\Users\JPasol\Desktop\Repository\OP Dox Reports\Throughput Volume Database\bin\Debug\ThroughputVolumeDatabase.exe
 C:\Users\JPasol\Desktop\Repository\OP Dox Reports\Throughput Volume Database\bin\Debug\ThroughputVolumeDatabase.pdb
 C:\Users\JPasol\Desktop\Repository\OP Dox Reports\Throughput Volume Database\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
@@ -58,3 +46,15 @@ C:\Users\JPasol\Desktop\Repository\OP Dox Reports\Throughput Volume Database\obj
 C:\Users\JPasol\Desktop\Repository\OP Dox Reports\Throughput Volume Database\obj\Debug\Throughput Volume Database.csproj.CopyComplete
 C:\Users\JPasol\Desktop\Repository\OP Dox Reports\Throughput Volume Database\obj\Debug\ThroughputVolumeDatabase.exe
 C:\Users\JPasol\Desktop\Repository\OP Dox Reports\Throughput Volume Database\obj\Debug\ThroughputVolumeDatabase.pdb
+C:\Users\JPasol\Desktop\Repository\OP Dox Reports\Throughput Volume Database\bin\Debug\app.config
+C:\Users\JPasol\Desktop\Repository\OP Dox Reports\Throughput Volume Database\bin\Debug\CrystalReport1.rpt
+C:\Users\JPasol\Desktop\Repository\OP Dox Reports\Throughput Volume Database\bin\Debug\CMU.rpt
+C:\Users\JPasol\Desktop\Repository\OP Dox Reports\Throughput Volume Database\bin\Debug\VMR.rpt
+C:\Users\JPasol\Desktop\Repository\OP Dox Reports\Throughput Volume Database\bin\Debug\CrystalReport1.vb
+C:\Users\JPasol\Desktop\Repository\OP Dox Reports\Throughput Volume Database\bin\Debug\CMU.vb
+C:\Users\JPasol\Desktop\Repository\OP Dox Reports\Throughput Volume Database\bin\Debug\dsVMR.Designer.vb
+C:\Users\JPasol\Desktop\Repository\OP Dox Reports\Throughput Volume Database\bin\Debug\dsVMR.vb
+C:\Users\JPasol\Desktop\Repository\OP Dox Reports\Throughput Volume Database\bin\Debug\VMR.vb
+C:\Users\JPasol\Desktop\Repository\OP Dox Reports\Throughput Volume Database\bin\Debug\dsVMR.xsc
+C:\Users\JPasol\Desktop\Repository\OP Dox Reports\Throughput Volume Database\bin\Debug\dsVMR.xsd
+C:\Users\JPasol\Desktop\Repository\OP Dox Reports\Throughput Volume Database\bin\Debug\dsVMR.xss

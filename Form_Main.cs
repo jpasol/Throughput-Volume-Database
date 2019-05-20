@@ -38,7 +38,13 @@ namespace ThroughputVolumeDatabase
                 string[] lines = tempDB.AllVesselThroughputVolumeData.AsEnumerable()
                     .Select(row => row["VesselVolume"].ToString()).Distinct().ToArray();
 
-                AddNullMonthEntries(lines,years, tempDB);
+                string[] remarks = tempDB.AllVesselThroughputVolumeData.AsEnumerable()
+                    .Select(row => row["Remarks"].ToString()).Distinct().ToArray();
+
+                string[] berthwindows = tempDB.AllVesselThroughputVolumeData.AsEnumerable()
+                    .Select(row => row["BerthWindow"].ToString()).Distinct().ToArray();
+
+                AddNullMonthEntries(berthwindows,remarks,lines, years, tempDB);
 
                 Form_CummulativeReport reportForm = new Form_CummulativeReport();
                 CummulativeThroughputReport cumReport = new CummulativeThroughputReport();
@@ -49,19 +55,36 @@ namespace ThroughputVolumeDatabase
             }
         }
 
-        private void AddNullMonthEntries(string[] lines, int[] years, Throughput_Volume_Update.ThroughputVolumeDatabase tempDB)
+        private void AddNullMonthEntries(string[] berthwindows, 
+                                            string[] remarks,
+                                            string[] lines, 
+                                            int[] years,
+                                            Throughput_Volume_Update.ThroughputVolumeDatabase tempDB)
         {
-            foreach (string line in lines)
+
+            foreach (string remark in remarks)
             {
-                foreach (int year in years)
+                foreach (string berth in berthwindows)
                 {
-                    for (int i = 1; i <= 12; i++)
+                    foreach (string line in lines)
                     {
-                        DataRow tempRow = tempDB.AllVesselThroughputVolumeData.NewRow();
-                        tempRow["VesselVolume"] = line;
-                        tempRow["Month"] = i;
-                        tempRow["Year"] = year;
-                        tempDB.AllVesselThroughputVolumeData.Rows.Add(tempRow);
+                        foreach (string vessel in lines)
+                        {
+                            foreach (int year in years)
+                            {
+                                for (int i = 1; i <= 12; i++)
+                                {
+                                    DataRow tempRow = tempDB.AllVesselThroughputVolumeData.NewRow();
+                                    tempRow["VesselVolume"] = vessel;
+                                    tempRow["Line"] = line;
+                                    tempRow["Month"] = i;
+                                    tempRow["Year"] = year;
+                                    tempRow["BerthWindow"] = berth;
+                                    tempRow["Remarks"] = remark;
+                                    tempDB.AllVesselThroughputVolumeData.Rows.Add(tempRow);
+                                }
+                            }
+                        }
                     }
                 }
             }
