@@ -23,6 +23,8 @@ namespace ThroughputVolumeDatabase
             filterBuilder1.cmbFields.Items.AddRange(fieldList.ToArray<string>());
             filterBuilder1.buttonApply.Click += new EventHandler(ApplyFilterToDatagridview);
             throughput_Viewer1.KeyDown += new KeyEventHandler(GenerateReport);
+
+            cumReport = new CummulativeThroughputReport(); //to speed up the process
         }
 
         private void GenerateReport(object sender, KeyEventArgs e)
@@ -47,7 +49,7 @@ namespace ThroughputVolumeDatabase
                 AddNullMonthEntries(berthwindows,remarks,lines, years, tempDB);
 
                 Form_CummulativeReport reportForm = new Form_CummulativeReport();
-                CummulativeThroughputReport cumReport = new CummulativeThroughputReport();
+                reportForm.StartPosition = FormStartPosition.CenterParent;
                 cumReport.SetDataSource(tempDB);
                 reportForm.cummulativeReportViewer.ReportSource = cumReport;
                 reportForm.Show();
@@ -114,10 +116,10 @@ namespace ThroughputVolumeDatabase
         }
 
         private AllVesselThroughputVolume ThroughputVolume;
-
+        private CummulativeThroughputReport cumReport;
         private void RetrieveData()
         {
-            ThroughputVolume = new AllVesselThroughputVolume(1, 2019);
+            ThroughputVolume = new AllVesselThroughputVolume();
             throughput_Viewer1.DataSource = ThroughputVolume.AllVesselThroughputVolumeDatabase.AllVesselThroughputVolumeData;
             
         }

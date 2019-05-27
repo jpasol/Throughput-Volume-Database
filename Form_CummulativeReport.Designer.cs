@@ -49,6 +49,7 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.cummulativeReportViewer);
             this.Name = "Form_CummulativeReport";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Form_CummulativeReport";
             this.ResumeLayout(false);
 
